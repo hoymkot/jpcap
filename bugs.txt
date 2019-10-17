@@ -1,0 +1,9 @@
+To use device name from PacketCapture.findDevice(), everything as "{}" must be drop from the string to process further. 
+For example:  
+before processing 
+             \Device\NPF_{A87F459C-4FF6-4866-9076-E1202B7B757B}
+                  Sun
+after processing 
+            \Device\NPF_{A87F459C-4FF6-4866-9076-E1202B7B757B}    <== only this part 
+                  
+                  
