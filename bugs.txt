@@ -7,3 +7,5 @@ after processing
             \Device\NPF_{A87F459C-4FF6-4866-9076-E1202B7B757B}    <== only this part 
                   
                   
+PacketCapture.findDevice() only returns first connected network interface. It may not be an internet connected interfaces if your computer has multipe network interfaces.                   
+                  
